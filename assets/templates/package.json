@@ -1,0 +1,24 @@
+{
+    "name": "{{config.metadata.short_name}}",
+    "version": "0.1.0",
+    "description": "{{config.metadata.description}}",
+    "repository": {
+      "type": "git",
+      "url": "{{config.features.editOnRepo.location}}"
+    },
+    "keywords": [
+      "boogi",
+      "docs"
+    ],
+    "main": "n/a",
+    "scripts": {
+      "start": "node_modules/.bin/boogi develop",
+      "develop": "node_modules/.bin/boogi develop",
+      "build": "node_modules/.bin/boogi build",
+      "clean": "node_modules/.bin/boogi clean"
+    },
+    "dependencies": {
+        "boogi-cli": "{{package.version}}"
+    }
+  }
+  

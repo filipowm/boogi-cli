@@ -1,0 +1,7 @@
+# This is default jargon that you can use. Feel free to change it. See: https://boogi.netlify.app/editing/rich_content/abbreviations
+{{#with config.metadata}}
+'{{short_name}}':
+  name: {{short_name}}
+  long_name: {{name}}
+  description: {{#if (notBlank description)}}{{description}}{{else}}This app was created with <a href="https://github.com/filipowm/boogi-cli">BooGi CLI</a>{{/if}}
+{{/with}}
