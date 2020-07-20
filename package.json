@@ -1,0 +1,47 @@
+{
+  "name": "boogi-cli",
+  "version": "0.0.1",
+  "description": "CLI for BooGi helping to create awesome, modern documentation pages",
+  "main": "bin/boogi.js",
+  "bin": {
+    "boogi": "./bin/boogi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipowm/boogi-cli.git"
+  },
+  "keywords": [
+    "boogi",
+    "gatsby",
+    "docs",
+    "gitbook",
+    "docs-generator",
+    "cli"
+  ],
+  "author": "filipowm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipowm/boogi-cli/issues"
+  },
+  "homepage": "https://github.com/filipowm/boogi-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chokidar": "^3.4.0",
+    "esm": "^3.2.25",
+    "execa": "^4.0.2",
+    "figlet": "^1.4.0",
+    "glob": "^7.1.6",
+    "handlebars": "^4.7.6",
+    "hosted-git-info": "^3.0.4",
+    "inquirer": "^7.3.0",
+    "js-yaml": "^3.14.0",
+    "listr": "^0.14.3",
+    "lodash": "^4.17.15",
+    "node-emoji": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.4",
+    "simple-git": "^2.12.0",
+    "terminal-link": "^2.1.1",
+    "yargs": "^15.4.0"
+  }
+}
