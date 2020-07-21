@@ -2,6 +2,7 @@
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/filipowm/boogi-cli)
 ![CI](https://github.com/filipowm/boogi-cli/workflows/CI/badge.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/filipowm/boogi)
 
 CLI for BooGi - an awesome documentation pages generator 
 with modern look-and-feel.
