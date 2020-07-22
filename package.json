@@ -1,6 +1,6 @@
 {
   "name": "boogi-cli",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "CLI for BooGi helping to create awesome, modern documentation pages",
   "main": "bin/boogi.js",
   "bin": {
