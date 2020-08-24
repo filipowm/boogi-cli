@@ -42,7 +42,7 @@
     "node-emoji": "1.10.0",
     "node-fetch": "2.6.0",
     "ora": "4.0.5",
-    "simple-git": "2.14.0",
+    "simple-git": "2.20.1",
     "terminal-link": "2.1.1",
     "yargs": "15.4.1"
   },
