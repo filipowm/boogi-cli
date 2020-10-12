@@ -47,6 +47,6 @@
     "yargs": "15.4.1"
   },
   "devDependencies": {
-    "eslint": "7.5.0"
+    "eslint": "7.11.0"
   }
 }
