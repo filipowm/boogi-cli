@@ -43,6 +43,8 @@ jobs:
     if: github.event.action == 'release_created'
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.client_payload.ref }}
     - uses: bahmutov/npm-install@v1
     - uses: JS-DevTools/npm-publish@v1
       with:
