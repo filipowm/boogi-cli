@@ -1,3 +1,21 @@
+# [0.4.0](https://github.com/filipowm/boogi-cli/compare/v0.3.1...v0.4.0) (2020-10-27)
+
+
+### Bug Fixes
+
+* fix issue when CLI is cancelled due to issue ([83fc24f](https://github.com/filipowm/boogi-cli/commit/83fc24f862c427cde1996e768d7826eff7ebf4ef))
+* improve rejection when boogi is already initialized in current dir ([6576a1b](https://github.com/filipowm/boogi-cli/commit/6576a1b05834b35cd0ff709805076ad49562bd9d))
+* **deps:** update dependency node-fetch to v2.6.1 [security] ([7141edd](https://github.com/filipowm/boogi-cli/commit/7141edd6e7e7c3579730fdea7c0163c9463c8766))
+* **deps:** update dependency simple-git to v2.21.0 ([4062b70](https://github.com/filipowm/boogi-cli/commit/4062b70f3a1c3a5a790608955ba791f30ae5bcb5))
+* theme paths not in sync, defaultColors is just colors.js now ([90333f7](https://github.com/filipowm/boogi-cli/commit/90333f766a78178f1262af0d21fb9c763e476d2c))
+
+
+### Features
+
+* make CD workflow to be trigger with branch refs ([b22a691](https://github.com/filipowm/boogi-cli/commit/b22a691efb0dda19e780b13306b59737b3532dd1))
+
+
+
 ## [0.3.1](https://github.com/filipowm/boogi-cli/compare/v0.3.0...v0.3.1) (2020-10-27)
 
 
