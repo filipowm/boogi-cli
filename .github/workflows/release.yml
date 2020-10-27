@@ -23,10 +23,11 @@ jobs:
         package-json: './package.json'
 
     - name: Trigger CD workflow
-      uses: mvasigh/dispatch-action@main
+      uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.priv_github_token }}
-        event_type: release_created
+        event-type: release_created
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
     - name: Create Github Release
       uses: actions/create-release@v1
