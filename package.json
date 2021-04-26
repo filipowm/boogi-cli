@@ -43,7 +43,7 @@
     "node-fetch": "2.6.1",
     "ora": "4.0.5",
     "simple-git": "2.21.0",
-    "terminal-link": "2.1.1",
+    "terminal-link": "3.0.0",
     "yargs": "15.4.1"
   },
   "devDependencies": {
