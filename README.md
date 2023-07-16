@@ -1,3 +1,5 @@
+**Project is no longer maintained (as if it was in recent two years 🙃). I suggest to switch to Docusaurus which is really powerful documentation sites engine, quite similar to BooGi**
+
 # BooGi CLI
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/filipowm/boogi-cli)
